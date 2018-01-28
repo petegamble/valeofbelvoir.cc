@@ -5,12 +5,14 @@ import { ShopModule } from './shop/shop.module'
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome/welcome.component';
+import { DashboardComponent } from './user/dashboard/dashboard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule, 
